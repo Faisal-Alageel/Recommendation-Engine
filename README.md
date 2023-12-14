@@ -5,7 +5,7 @@ The recommendation engine is designed to provide personalized recommendations ba
 Additionally, a statistical analysis technique is employed to provide recommendations based on product ratings and the number of ratings.
 
 ## Overview
-The ML based recommendation engine is constructed using the Surprise framework, incorporating the Singular Value Decomposition (SVD) Algorithm for generating user-product recommendations.   
+The ML based recommendation engine is constructed using the **Surprise framework**, incorporating the Singular Value Decomposition (SVD) Algorithm for generating user-product recommendations.   
 SVD is a matrix factorization technique that decomposes the user-item interaction matrix into user and item latent factors.
 
 For the statistical analysis approach, I've applied the IMDB formula for fair rating based recommendations. 
@@ -30,7 +30,7 @@ which contains (**user id** , **product id** , **product rating** , **timestamp*
 ## Instructions
 
 1. to clone this repo **with the data**, you need to run ` git lfs clone https://github.com/Faisal-Alageel/Recommendation-Engine.git `.
-2. Install the required dependencies, I suggest installing pandas, numpy, matplotlib, and surprise.
+2. Install the required dependencies, you need to install pandas, numpy, matplotlib, and surprise.  
    for that I suggest using Conda package manager, creating your `Python 3.11` environment and installing surprise by runnning `conda install -c conda-forge scikit-surprise`.
 3. Run & explore `Recommendations.ipynb`
 
