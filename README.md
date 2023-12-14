@@ -8,6 +8,9 @@ This repository contains code for building a recommendation engine using the Sur
 
 The recommendation engine is designed to provide personalized recommendations based on user preferences. It utilizes collaborative filtering techniques to identify patterns and similarities among users' behavior.
 
+## Dataset
+
+the dataset used is the [Amazon product reviews](https://www.kaggle.com/datasets/saurav9786/amazon-product-reviews/)
 ## Instructions
 
 1. to clone this repo with the datam you need to run ` git lfs clone https://github.com/Faisal-Alageel/Recommendation-Engine.git `
